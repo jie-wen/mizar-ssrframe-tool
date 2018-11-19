@@ -1,0 +1,6 @@
+{
+    "app_name": "mizar-ssrframe-tool",
+    "custom": {
+        "port": 8009
+    }
+}

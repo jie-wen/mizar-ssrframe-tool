@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "outDir": "../../build/client"
+    },
+    "extends": "../../tsconfig.json"
+}

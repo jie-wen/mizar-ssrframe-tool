@@ -1,0 +1,26 @@
+{
+    "vendorPack": {
+        "minify": true,
+        "browserVendor": []
+    },
+    "cdnType": "version",
+    "tslint": {
+        "enable": true
+    },
+    "clientPack": {
+        "minify": true,
+        "cssModule": true,
+        "chunk": true,
+        "cdn": "",
+        "style": {
+            "sourceMap": true,
+            "base64": false,
+            "ieCompat": true
+        }
+    },
+    "serverPack": {
+        "minify": true,
+        "templateMinify": true,
+        "debugPort": 9026
+    }
+}
