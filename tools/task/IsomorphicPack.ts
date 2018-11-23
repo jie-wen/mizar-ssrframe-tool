@@ -267,6 +267,7 @@ export class IsomorphicPack extends WebpackTaskBase {
                                 options: {
                                     limit: 8192,
                                     name: "assets/[name]_[hash:8].[ext]",
+                                    publicPath: `/${this.globalConfig.cdnPath}/`,
                                 },
                             },
                         ],
